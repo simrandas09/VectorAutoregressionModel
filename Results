@@ -1,0 +1,52 @@
+📊 Interpretation of Significant Results (p < 0.05)
+➤ Unemployment → Industrial Production
+p = 0.0000
+
+Interpretation: Unemployment Granger-causes Industrial Production.
+
+This means past values of unemployment help predict future industrial output.
+
+➤ GDP → Industrial Production
+p = 0.0073
+
+Interpretation: GDP Granger-causes Industrial Production.
+
+Past GDP has predictive power for future industrial output.
+
+➤ CPI → Industrial Production
+p = 0.0000
+
+Interpretation: Consumer Price Index (CPI) Granger-causes Industrial Production.
+
+Inflation trends can predict industrial growth patterns.
+
+➤ Industrial Production → CPI
+p = 0.0000
+
+Interpretation: This is bidirectional causality.
+
+Industrial activity also helps predict inflation.
+
+➤ Unemployment → CPI
+p = 0.0000
+
+Suggests unemployment helps predict inflation, which aligns with economic theory (e.g., Phillips Curve).
+
+➤ GDP → Unemployment
+p = 0.0000
+
+Suggests GDP growth can help forecast unemployment trends.
+
+🚫 Non-significant Results (p ≥ 0.05)
+For example:
+
+CPI → GDP (p = 0.2616): CPI does not Granger-cause GDP — no strong evidence that inflation predicts GDP in your data.
+
+🧠 What This Means Overall
+Your results suggest:
+
+GDP, Unemployment, and CPI have predictive power over Industrial Production.
+
+There is a bidirectional causal relationship between Industrial Production and CPI.
+
+Some expected economic relationships (like GDP → Unemployment) hold true in your data.
